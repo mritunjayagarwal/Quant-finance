@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    font-family: 'Montserrat', sans-serif;
+    scroll-behavior: smooth;
+    max-width: 100% !important;
+    overflow-x: hidden;
+    overflow-y: auto;
+    background: #060D20;
+}
+
+.container {
+    max-width: 85%;
+    margin: 0 auto;
+}
+
+section {
+    padding: 50px 0;
+}
+
+main {
+    background: #060D20;
+    color: #fff;
+}
+
+.feature-list{
+    background: url(../Home/img/bg-screen.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 1em;
+    border-radius: 10px;
+}
+
+.feature-list > h1 {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.feature-list > p {
+    font-size: 14px;
+}
+
+.about-head{
+    font-size: 60px;
+    font-weight: 700;
+}
+
+.strokeme {
+    color: #060D20;
+    background-color: #060D20;
+    text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff;
+  }
+
+.mission-para{
+    font-size: 20px;
+}
+
+.mission-btn{
+    border-radius: 50px;
+    padding: 0.8em 3em;
+}
+
+.buy-item{
+    height: 80px;
+    background: #007bff;
+    border-radius: 10px;
+    margin-top: 30px;
+}
