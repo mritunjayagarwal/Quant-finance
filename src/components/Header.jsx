@@ -2,30 +2,54 @@ import React from 'react'
 import { Link } from 'react-router-dom';
 
 
-function Header({address, isConnected, connect, disconnect}) {
+function Header({ address, isConnected, connect, disconnect }) {
 
   return (
     <header>
-      <div className="leftH">
-        
-        <Link to="/">
-          <div className="headerItem">Crypto</div>
-        </Link>
-      </div>
-
-        <div className="rightH">
-         
-          <button className="btn-grad py-3 px-3"
-            onClick={() => {
-              if(isConnected) disconnect()
-              else connect()
-            }} style = {{ "border": "unset"}}>
-            {isConnected 
-            ? 'Disconnect'
-            : 'Connect'}
-          </button>
+      <nav class="navbar navbar-expand-lg py-3 m-0" data-aos="fade-down" data-aos-delay="800">
+        <a class="navbar-brand me-2" href="#">
+          <img src="./img/logo.png" alt="" /> KUWA
+        </a>
+        <button class="navbar-toggler text-white" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+          <i class="fa fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse text-white" id="navbarText">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a href="#" class="px-3 pt-2 btn-link">
+                Home
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="#project" class="px-3 pt-2 btn-link">
+                About Us
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="#buy" class="px-3 pt-2 btn-link">
+                How to Buy
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="#bott" class="px-3 pt-2 btn-link">
+                Socials
+              </a>
+            </li>
+            <li class="nav-item">
+              <button className="btn-grad py-3 px-3"
+                onClick={() => {
+                  if (isConnected) disconnect()
+                  else connect()
+                }} style={{ "border": "unset" }}>
+                {isConnected
+                  ? 'Disconnect'
+                  : 'Connect'}
+              </button>
+            </li>
+          </ul>
         </div>
-      </header> 
+      </nav>
+    </header>
   )
 }
 

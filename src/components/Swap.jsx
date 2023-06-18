@@ -292,11 +292,11 @@ function Swap({ isConnected, address }) {
               </div>
             </div>
           </div>
-
+{/* 
           <div className='slippage'>
             <h4 class = "text-white">Slippage Tolerance</h4>
             {settings}
-          </div>
+          </div> */}
 
           <div className="swapButton btn-grad m-0 w-100" onClick={fetchDexSwap} disabled={!tokenOneAmount || !isConnected}>
             Swap
