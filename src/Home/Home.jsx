@@ -55,7 +55,7 @@ const Home = () => {
                                 <img src={img} class="img-fluid" alt="" />
                             </div>
                             <div class="col-lg-6 d-flex align-items-center justify-content-center">
-                                <p className='mission-para'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos excepturi doloremque, eum similique ullam perspiciatis reprehenderit dolorum? Iste porro totam delectus, molestias unde doloremque animi qui officiis nisi ab quae.</p>
+                                <p className='mission-para'>Quantitative finance utilizes AI pathfinding & Batch auctioning to identify the most affordable price for your trade from various exchanges and aggregators, including Uniswap and 1inch. Additionally, it safeguards you against MEV bots, setting it apart from other solutions.</p>
                             </div>
                         </div>
                     </div>
@@ -64,7 +64,7 @@ const Home = () => {
                     <div class="container">
                         <div class="row">
                             <div class="col-lg-7 d-flex align-items-center">
-                                <h1 class="about-head about-main">EASILY <span class="strokeme">BUY <br /> and SELL</span> CRYPTO & <br /> STABLECOINS</h1>
+                                <h1 class="about-head about-main text-upper">Unleashing <span className='strokeme'>unparalleled price dominance</span> in the crypto space</h1>
                             </div>
                             <div class="col-lg-5 d-flex align-items-center justify-content-end">
                                 <img src={handImg} class="img-fluid" alt="" />
@@ -77,20 +77,20 @@ const Home = () => {
                         <div class="row">
                             <div class="col-lg-4">
                                 <div className="feature-list">
-                                    <h1 class="text-center">Superior Rates</h1>
-                                    <p class="text-center">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsum nobis impedit, nam aliquid id blanditiis ea beatae explicabo repellat est quo eveniet. Delectus impedit autem quibusdam velit saepe voluptatibus veniam?</p>
+                                    <h1 class="text-center">Competitive Rates</h1>
+                                    <p class="text-center">Exchange your preferred coins and alternative assets for ETH, with transaction fees as low as 0.1% per swap.</p>
                                 </div>
                             </div>
                             <div class="col-lg-4">
                                 <div className='feature-list'>
-                                    <h1 class="text-center">Superior Rates</h1>
-                                    <p class="text-center">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsum nobis impedit, nam aliquid id blanditiis ea beatae explicabo repellat est quo eveniet. Delectus impedit autem quibusdam velit saepe voluptatibus veniam?</p>
+                                    <h1 class="text-center">Seamless Swaps</h1>
+                                    <p class="text-center">Eliminate the need for manual price comparison across platforms like 1inch, Uniswap, or other exchanges. Instead, our swap leverages an AI-based pathfinder to search and identify the optimal price from all available sources.</p>
                                 </div>
                             </div>
                             <div class="col-lg-4">
                                 <div className='feature-list'>
-                                    <h1 class="text-center">Superior Rates</h1>
-                                    <p class="text-center">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsum nobis impedit, nam aliquid id blanditiis ea beatae explicabo repellat est quo eveniet. Delectus impedit autem quibusdam velit saepe voluptatibus veniam?</p>
+                                    <h1 class="text-center">Chain Agnostic</h1>
+                                    <p class="text-center">Our decentralized exchange (DEX) ensures multichain compatibility (Binance Smart Chain, Arbitrum) providing users with a diverse range of chain options to utilize.</p>
                                 </div>
                             </div>
                         </div>
