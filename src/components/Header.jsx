@@ -6,19 +6,17 @@ function Header({ address, isConnected, connect, disconnect }) {
 
   return (
     <header>
-      <nav class="navbar navbar-expand-lg py-3 m-0" data-aos="fade-down" data-aos-delay="800">
-        <a class="navbar-brand me-2" href="#">
-          <img src="./img/logo.png" alt="" /> KUWA
-        </a>
+      <nav class="navbar navbar-expand-lg py-3 m-0 w-100" data-aos="fade-down" data-aos-delay="800">
+        <Link class="navbar-brand me-2" to="/">Crypto</Link>
         <button class="navbar-toggler text-white" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
           <i class="fa fa-bars"></i>
         </button>
         <div class="collapse navbar-collapse text-white" id="navbarText">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a href="#" class="px-3 pt-2 btn-link">
+          <ul class="navbar-nav ml-auto mb-2 mb-lg-0">
+            {/* <li class="nav-item">
+              <Link to="/" class="px-3 pt-2 btn-link">
                 Home
-              </a>
+              </Link>
             </li>
             <li class="nav-item">
               <a href="#project" class="px-3 pt-2 btn-link">
@@ -34,7 +32,7 @@ function Header({ address, isConnected, connect, disconnect }) {
               <a href="#bott" class="px-3 pt-2 btn-link">
                 Socials
               </a>
-            </li>
+            </li> */}
             <li class="nav-item">
               <button className="btn-grad py-3 px-3"
                 onClick={() => {
@@ -42,8 +40,8 @@ function Header({ address, isConnected, connect, disconnect }) {
                   else connect()
                 }} style={{ "border": "unset" }}>
                 {isConnected
-                  ? 'Disconnect'
-                  : 'Connect'}
+                  ? 'Disconnect Wallet'
+                  : 'Connect Wallet'}
               </button>
             </li>
           </ul>

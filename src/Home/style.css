@@ -26,9 +26,36 @@ section {
     padding: 50px 0;
 }
 
+.navbar-brand{
+    color: #fff;
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.buy-sell-btn{
+    padding: 0.5em 2em;
+    background: transparent;
+    color: #fff;
+    border: 2px solid #007bff;
+    outline: unset;
+    border-radius: 20px;
+    transition: 0.7s;
+}
+
+.buy-sell-btn:hover{
+    background: #007bff;
+}
+
 main {
     background: #060D20;
     color: #fff;
+}
+
+.main-link{
+    font-size: 20px;
+    color: #fff;
+    border-bottom: 2px solid #fff;
+    padding: 0.5em 0;
 }
 
 .feature-list{

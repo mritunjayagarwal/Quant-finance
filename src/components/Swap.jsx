@@ -209,7 +209,7 @@ function Swap({ isConnected, address }) {
   )
 
   return (
-    <div>
+    <div >
       <div className='swap-main'>
         <Modal
           open={isOpen}
@@ -238,68 +238,70 @@ function Swap({ isConnected, address }) {
           connect={connect}
           disconnect={disconnect}
           isConnected={isConnected} address={address} />
-        <div className="tradeBox">
-          <div className="tradeBoxHeader">
-            <h4 class="text-center trade-title text-white">Swap</h4>
-          </div>
-          <div class="w-100">
-            <h5>From</h5>
-            <div class="inputs row">
-              <div style={{ "flex": 1, "padding": "1em" }} className="col-lg-6">
-                <div class="asset-wrapper">
-                  <div className="asset-input">
-                    <div className="assetOne" onClick={() => openModal(1)}>
-                      <div>
-                        <img src={tokenOne.img} className="assetLogo" />
-                        {tokenOne.ticker}
+        <div class = "tradebox-wrapper">
+          <div className="tradeBox">
+            <div className="tradeBoxHeader">
+              <h4 class="text-center trade-title text-white">Swap</h4>
+            </div>
+            <div class="w-100">
+              <h5>From</h5>
+              <div class="inputs row">
+                <div style={{ "flex": 1, "padding": "1em" }} className="col-lg-6">
+                  <div class="asset-wrapper">
+                    <div className="asset-input">
+                      <div className="assetOne" onClick={() => openModal(1)}>
+                        <div>
+                          <img src={tokenOne.img} className="assetLogo mr-2" />
+                          {tokenOne.ticker}
+                        </div>
+                        <DownOutlined />
                       </div>
-                      <DownOutlined />
+                    </div>
+                  </div>
+                </div>
+                <div style={{ "flex": 1, "padding": "1em" }} className='col-lg-6'>
+                  <div className='asset-wrapper'>
+                    <div className='asset-input'>
+                      <input placeholder='Enter Amount'
+                        disabled={!prices}
+                        value={tokenOneAmount} onChange={changeAmount} />
                     </div>
                   </div>
                 </div>
               </div>
-              <div style={{ "flex": 1, "padding": "1em" }} className='col-lg-6'>
-                <div className='asset-wrapper'>
-                  <div className='asset-input'>
-                    <input placeholder='Enter Amount'
-                      disabled={!prices}
-                      value={tokenOneAmount} onChange={changeAmount} />
+              <h5>To</h5>
+              <div class="inputs row">
+                <div style={{ "flex": 1, "padding": "1em" }} className="col-lg-6">
+                  <div className="asset-wrapper">
+                    <div className="asset-input">
+                      <div className="assetTwo" onClick={() => openModal(2)}>
+                        <div>
+                          <img src={tokenTwo.img} className="assetLogo mr-2" />
+                          {tokenTwo.ticker}
+                        </div>
+                        <DownOutlined />
+                      </div>
+                    </div>
                   </div>
                 </div>
-              </div>
-            </div>
-            <h5>To</h5>
-            <div class="inputs row">
-              <div style={{ "flex": 1, "padding": "1em" }} className="col-lg-6">
-                <div className="asset-wrapper">
-                  <div className="asset-input">
-                    <div className="assetTwo" onClick={() => openModal(2)}>
-                      <div>
-                        <img src={tokenTwo.img} className="assetLogo" />
-                        {tokenTwo.ticker}
-                      </div>
-                      <DownOutlined />
+                <div style={{ "flex": 1, "padding": "1em" }} className="col-lg-6">
+                  <div class="asset-wrapper">
+                    <div class="asset-input">
+                      <input placeholder="0" value={tokenTwoAmount} disabled={true} />
                     </div>
                   </div>
                 </div>
               </div>
-              <div style={{ "flex": 1, "padding": "1em" }} className="col-lg-6">
-                <div class="asset-wrapper">
-                  <div class="asset-input">
-                    <input placeholder="0" value={tokenTwoAmount} disabled={true} />
-                  </div>
-                </div>
-              </div>
             </div>
-          </div>
-{/* 
+            {/* 
           <div className='slippage'>
             <h4 class = "text-white">Slippage Tolerance</h4>
             {settings}
           </div> */}
 
-          <div className="swapButton btn-grad m-0 w-100" onClick={fetchDexSwap} disabled={!tokenOneAmount || !isConnected}>
-            Swap
+            <div className="swapButton btn-grad m-0 w-100" onClick={fetchDexSwap} disabled={!tokenOneAmount || !isConnected}>
+              Swap
+            </div>
           </div>
         </div>
       </div>

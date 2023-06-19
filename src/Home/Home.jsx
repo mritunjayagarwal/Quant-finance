@@ -8,42 +8,54 @@ import missionImg from './img/mission-main.png'
 const Home = () => {
     return (
         <>
+            <div>
+                <div className='container'>
+                    <div class = "d-flex justify-content-between py-3">
+                    <Link to = "/" className='navbar-brand'>CRYPTO</Link>
+                    <Link to = "/swap">
+                        <button className="buy-sell-btn">Buy/Sell</button>
+                    </Link>
+                    </div>
+                </div>
+            </div>
             <main>
-                <section>
+                <section style  = {{ "padding": "100px 0 0 0"}}>
                     <div className="container">
                         <div class="row">
-                            <div class="col-lg-3">
+                            <div class="col-lg-3 d-flex align-items-center justify-content-center">
+                                <div className='w-100'>
                                 <div>
                                     <a href="">
-                                        <h1>Heme <span class="pull-right">hi</span></h1>
+                                        <h1 className = "main-link">Home <span class="pull-right"><i className='fa fa-arrow-right'></i></span></h1>
                                     </a>
                                 </div>
                                 <div>
                                     <a href="">
-                                        <h1>Heme <span class="pull-right">hi</span></h1>
+                                        <h1 className = "main-link">Home <span class="pull-right"><i className='fa fa-arrow-right'></i> </span></h1>
                                     </a>
                                 </div>
                                 <div>
                                     <a href="">
-                                        <h1>Heme <span class="pull-right">hi</span></h1>
+                                        <h1 className = "main-link">Home <span class="pull-right"><i className='fa fa-arrow-right'></i> </span></h1>
                                     </a>
                                 </div>
                                 <div>
                                     <a href="">
-                                        <h1>Heme <span class="pull-right">hi</span></h1>
+                                        <h1 className = "main-link">Home <span class="pull-right"><i className='fa fa-arrow-right'></i> </span></h1>
                                     </a>
                                 </div>
                                 <div>
                                     <a href="">
-                                        <h1>Heme <span class="pull-right">hi</span></h1>
+                                        <h1 className = "main-link">Home <span class="pull-right"><i className='fa fa-arrow-right'></i> </span></h1>
                                     </a>
+                                </div>
                                 </div>
                             </div>
                             <div class="col-lg-3 d-flex align-items-center justify-content-center">
                                 <img src={img} class="img-fluid" alt="" />
                             </div>
-                            <div class="col-lg-6">
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos excepturi doloremque, eum similique ullam perspiciatis reprehenderit dolorum? Iste porro totam delectus, molestias unde doloremque animi qui officiis nisi ab quae.</p>
+                            <div class="col-lg-6 d-flex align-items-center justify-content-center">
+                                <p className='mission-para'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos excepturi doloremque, eum similique ullam perspiciatis reprehenderit dolorum? Iste porro totam delectus, molestias unde doloremque animi qui officiis nisi ab quae.</p>
                             </div>
                         </div>
                     </div>
@@ -51,10 +63,10 @@ const Home = () => {
                 <section>
                     <div class="container">
                         <div class="row">
-                            <div class="col-lg-6 d-flex align-items-center">
+                            <div class="col-lg-7 d-flex align-items-center">
                                 <h1 class="about-head">EASILY <span class="strokeme">BUY <br /> and SELL</span> CRYPTO & <br /> STABLECOINS</h1>
                             </div>
-                            <div class="col-lg-6 d-flex align-items-center justify-content-center">
+                            <div class="col-lg-5 d-flex align-items-center justify-content-end">
                                 <img src={handImg} class="img-fluid" alt="" />
                             </div>
                         </div>
@@ -230,7 +242,7 @@ const Home = () => {
                 </section>
                 <section>
                     <div class="container">
-                        <h1 class="text-center">JOIN OUR COMMUNITY</h1>
+                        <h1 class="text-center about-head">JOIN OUR <span className='strokeme'>COMMUNITY</span></h1>
                         <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit rem voluptas, iure, quod ipsam error doloribus laborum dolor reprehenderit architecto accusantium facere itaque, eum nihil temporibus. Aperiam laboriosam ipsa at.</p>
                     </div>
                 </section>
