@@ -287,7 +287,7 @@ function Swap({ isConnected, address }) {
                 <div style={{ "flex": 1, "padding": "1em" }} className="col-lg-6">
                   <div class="asset-wrapper">
                     <div class="asset-input">
-                      <input placeholder="0" value={tokenTwoAmount} disabled={true} />
+                      <input placeholder="You'll Receive" value={tokenTwoAmount} disabled={true} />
                     </div>
                   </div>
                 </div>
