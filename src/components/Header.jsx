@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
+import eth from '../Home/img/eth.png';
 
 
 function Header({ address, isConnected, connect, disconnect }) {
@@ -13,26 +14,26 @@ function Header({ address, isConnected, connect, disconnect }) {
         </button>
         <div class="collapse navbar-collapse text-white" id="navbarText">
           <ul class="navbar-nav ml-auto mb-2 mb-lg-0">
-            {/* <li class="nav-item">
+            <li class="nav-item">
+              <Link to="/" class="px-3 pt-2 btn-link active">
+                Swap
+              </Link>
+            </li>
+            <li class="nav-item">
               <Link to="/" class="px-3 pt-2 btn-link">
-                Home
+                Pool
               </Link>
             </li>
             <li class="nav-item">
               <a href="#project" class="px-3 pt-2 btn-link">
-                About Us
+                Bridge
               </a>
             </li>
-            <li class="nav-item">
-              <a href="#buy" class="px-3 pt-2 btn-link">
-                How to Buy
+            <li>
+              <a href = "#project">
+                <img src={eth} className='mr-3' style = {{ "width": "40px", "height": "auto", "margin-top": "-5px"}} alt="" />
               </a>
             </li>
-            <li class="nav-item">
-              <a href="#bott" class="px-3 pt-2 btn-link">
-                Socials
-              </a>
-            </li> */}
             <li class="nav-item">
               <button className="btn-grad py-3 px-3"
                 onClick={() => {

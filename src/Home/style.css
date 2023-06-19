@@ -33,7 +33,7 @@ section {
 }
 
 .buy-sell-btn{
-    padding: 0.5em 2em;
+    padding: 0.5em 3em;
     background: transparent;
     color: #fff;
     border: 2px solid #007bff;
@@ -98,7 +98,13 @@ main {
 
 .buy-item{
     height: 80px;
-    background: #007bff;
+    background: rgb(10,86,172);
+background: linear-gradient(90deg, rgba(10,86,172,1) 0%, rgba(10,59,121,1) 100%);
     border-radius: 10px;
     margin-top: 30px;
+}
+
+.buy-head{
+    font-size: 25px;
+    font-weight: 550;
 }

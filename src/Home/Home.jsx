@@ -13,7 +13,7 @@ const Home = () => {
                     <div class = "d-flex justify-content-between py-3">
                     <Link to = "/" className='navbar-brand'>CRYPTO</Link>
                     <Link to = "/swap">
-                        <button className="buy-sell-btn">Buy/Sell</button>
+                        <button className="buy-sell-btn">Buy / Sell</button>
                     </Link>
                     </div>
                 </div>
@@ -31,7 +31,7 @@ const Home = () => {
                                 </div>
                                 <div>
                                     <a href="">
-                                        <h1 className = "main-link">Home <span class="pull-right"><i className='fa fa-arrow-right'></i> </span></h1>
+                                        <h1 className = "main-link">Whitepaper <span class="pull-right"><i className='fa fa-arrow-right'></i> </span></h1>
                                     </a>
                                 </div>
                                 <div>
@@ -120,7 +120,7 @@ const Home = () => {
                                 <div className='buy-item'>
                                     <div class = "d-flex h-100">
                                         <div style = {{ "flex": 1}} className='d-flex align-items-center justify-content-center'>
-                                            <h1 class = "text-center">USDC</h1>
+                                            <h1 class = "text-center buy-head">USDC</h1>
                                         </div>
                                         <div class = "d-flex align-items-center justify-content-center p-2">
                                             <img src={img}   style = {{ "height": "60px"}} alt="" />
@@ -132,7 +132,7 @@ const Home = () => {
                                 <div className='buy-item'>
                                     <div class = "d-flex h-100">
                                         <div style = {{ "flex": 1}} className='d-flex align-items-center justify-content-center'>
-                                            <h1 class = "text-center">USDC</h1>
+                                            <h1 class = "text-center buy-head">USDC</h1>
                                         </div>
                                         <div class = "d-flex align-items-center justify-content-center p-2">
                                             <img src={img}   style = {{ "height": "60px"}} alt="" />
@@ -144,7 +144,7 @@ const Home = () => {
                                 <div className='buy-item'>
                                     <div class = "d-flex h-100">
                                         <div style = {{ "flex": 1}} className='d-flex align-items-center justify-content-center'>
-                                            <h1 class = "text-center">USDC</h1>
+                                            <h1 class = "text-center buy-head">USDC</h1>
                                         </div>
                                         <div class = "d-flex align-items-center justify-content-center p-2">
                                             <img src={img}   style = {{ "height": "60px"}} alt="" />
@@ -156,7 +156,7 @@ const Home = () => {
                                 <div className='buy-item'>
                                     <div class = "d-flex h-100">
                                         <div style = {{ "flex": 1}} className='d-flex align-items-center justify-content-center'>
-                                            <h1 class = "text-center">USDC</h1>
+                                            <h1 class = "text-center buy-head">USDC</h1>
                                         </div>
                                         <div class = "d-flex align-items-center justify-content-center p-2">
                                             <img src={img}   style = {{ "height": "60px"}} alt="" />
@@ -168,7 +168,7 @@ const Home = () => {
                                 <div className='buy-item'>
                                     <div class = "d-flex h-100">
                                         <div style = {{ "flex": 1}} className='d-flex align-items-center justify-content-center'>
-                                            <h1 class = "text-center">USDC</h1>
+                                            <h1 class = "text-center buy-head">USDC</h1>
                                         </div>
                                         <div class = "d-flex align-items-center justify-content-center p-2">
                                             <img src={img}   style = {{ "height": "60px"}} alt="" />
@@ -180,7 +180,7 @@ const Home = () => {
                                 <div className='buy-item'>
                                     <div class = "d-flex h-100">
                                         <div style = {{ "flex": 1}} className='d-flex align-items-center justify-content-center'>
-                                            <h1 class = "text-center">USDC</h1>
+                                            <h1 class = "text-center buy-head">USDC</h1>
                                         </div>
                                         <div class = "d-flex align-items-center justify-content-center p-2">
                                             <img src={img}   style = {{ "height": "60px"}} alt="" />
@@ -192,7 +192,7 @@ const Home = () => {
                                 <div className='buy-item'>
                                     <div class = "d-flex h-100">
                                         <div style = {{ "flex": 1}} className='d-flex align-items-center justify-content-center'>
-                                            <h1 class = "text-center">USDC</h1>
+                                            <h1 class = "text-center buy-head">USDC</h1>
                                         </div>
                                         <div class = "d-flex align-items-center justify-content-center p-2">
                                             <img src={img}   style = {{ "height": "60px"}} alt="" />
@@ -204,7 +204,7 @@ const Home = () => {
                                 <div className='buy-item'>
                                     <div class = "d-flex h-100">
                                         <div style = {{ "flex": 1}} className='d-flex align-items-center justify-content-center'>
-                                            <h1 class = "text-center">USDC</h1>
+                                            <h1 class = "text-center buy-head">USDC</h1>
                                         </div>
                                         <div class = "d-flex align-items-center justify-content-center p-2">
                                             <img src={img}   style = {{ "height": "60px"}} alt="" />

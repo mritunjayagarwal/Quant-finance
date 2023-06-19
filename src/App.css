@@ -1,55 +1,65 @@
-.swap-main{
+.swap-main {
   background: #161521;
-  height: 100vh;  
+  height: 100vh;
 }
+
 /* HEADER */
 
 #main {
   background: #000;
 }
 
-i{
+i {
   color: #fff !important
 }
 
-i:hover{
+i:hover {
   color: #149ddd !important;
 }
 
-.btn-grad{
-  background: #007bff;
-  padding: 0.5em 2em !important;
+.btn-grad {
+  background: rgb(239, 78, 96);
+  background: linear-gradient(90deg, rgba(239, 78, 96, 1) 0%, rgba(156, 14, 70, 1) 100%);
+  padding: 0.7em 2em !important;
   margin-top: -10px;
   color: #fff;
   border-radius: 20px;
 }
 
-.nav-item a{
+.nav-item a {
   color: #fff;
+  margin: 0 10px;
 }
 
-.nav-item a:hover{
+.nav-item .active {
+  background: rgb(239, 78, 96);
+  background: linear-gradient(90deg, rgba(239, 78, 96, 1) 0%, rgba(156, 14, 70, 1) 100%);
+  padding-bottom: 10px;
+  border-radius: 10px;
+}
+
+.nav-item a:hover {
   color: #eee;
   text-decoration: none;
 }
 
 @media (max-width: 900px) {
-  .swap-main{
+  .swap-main {
     padding-bottom: 50px;
   }
 
-  .mobile-nav-toggle{
+  .mobile-nav-toggle {
     display: none;
   }
 }
 
 @media (max-width: 750px) {
 
-  header{
+  header {
     visibility: hidden;
   }
 
-  .tradeBox{
+  .tradeBox {
     width: 95% !important;
   }
 
@@ -61,25 +71,25 @@ i:hover{
     margin-left: 0;
   }
 
-  .mobile-nav-toggle{
+  .mobile-nav-toggle {
     display: block;
     padding: 1em 1.5em 1em 0.65em !important;
   }
 
-  .swap-main{
+  .swap-main {
     margin-left: 0;
   }
 }
 
 @media (max-width: 667px) {
-  .tradeBox{
+  .tradeBox {
     width: 90%;
   }
 }
 
 header {
   margin: auto;
-  height: 100px; 
+  height: 100px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -88,13 +98,13 @@ header {
   max-width: 100%;
 }
 
-.logo{
+.logo {
   width: 40px;
   height: 40px;
   padding-right: 20px;
 }
 
-.eth{
+.eth {
   width: 20px;
   height: 20px;
   padding-right: 10px;
@@ -120,7 +130,7 @@ header {
   font-weight: bold;
   padding-left: 15px;
   padding-right: 15px;
-  border-radius: 5px; 
+  border-radius: 5px;
   transition: 0.3s;
   display: flex;
   align-items: center;
@@ -151,7 +161,7 @@ header {
   color: white;
 }
 
-.tradebox-wrapper{
+.tradebox-wrapper {
   width: 50%;
   background-color: #1D1C28;
   /* box-shadow: 4px 10px 30px #ececf1; */
@@ -171,7 +181,7 @@ header {
   position: absolute;
   top: -60px;
   left: -10px;
-  background-color: rgba(0,0,0,0.2);
+  background-color: rgba(0, 0, 0, 0.2);
   /* box-shadow: 4px 10px 30px #ececf1; */
   min-height: 300px;
   border-radius: 30px;
@@ -188,21 +198,25 @@ header {
   width: 98%;
   color: #000;
   margin-bottom: 10px;
-  
+
 }
+
 .tradeBoxHeader h4 {
-    color: #16191F;
-    font-size: 34px ;
-    font-weight: 600;
+  color: #16191F;
+  font-size: 34px;
+  font-weight: 600;
 }
+
 .slippage {
   padding: 0;
   text-align: left;
   color: #16191F;
 }
+
 .slippage-options {
   width: 100%;
 }
+
 .cog {
   color: #16191F;
   transition: 0.3s;
@@ -224,8 +238,8 @@ header {
   border-radius: 8px;
   position: absolute;
   top: 80px;
-  left:0;
-  right:0;
+  left: 0;
+  right: 0;
   margin-left: auto;
   margin-right: auto;
   color: white;
@@ -248,7 +262,7 @@ header {
   cursor: pointer;
 }
 
-.inputs{
+.inputs {
   display: flex;
 }
 
@@ -262,7 +276,7 @@ header {
   color: #fff;
 }
 
-.asset-wrapper{
+.asset-wrapper {
   position: relative;
   width: 100%;
   height: 60px;
@@ -273,13 +287,13 @@ header {
   border-top-right-radius: 10px;
 }
 
-.asset-input{
+.asset-input {
   position: absolute;
   top: -6px;
   left: -6px;
   width: 100%;
   height: 100%;
-  background: rgba(0,0,0,0.2);
+  background: rgba(0, 0, 0, 0.2);
   border-top-left-radius: 20px;
   border-bottom-right-radius: 20px;
   border-bottom-left-radius: 10px;
@@ -292,7 +306,7 @@ header {
   background-color: transparent;
   color: #51596f;
   display: flex;
-  justify-content:space-between;
+  justify-content: space-between;
   align-items: center;
   gap: 5px;
   font-weight: bold;
@@ -314,11 +328,11 @@ header {
   padding: 0 1em;
 }
 
-.assetOne:hover{
+.assetOne:hover {
   cursor: pointer;
 }
 
-.assetTwo:hover{
+.assetTwo:hover {
   cursor: pointer;
 }
 
@@ -331,7 +345,8 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: #149ddd; 
+  background: rgb(239, 78, 96);
+  background: linear-gradient(90deg, rgba(239, 78, 96, 1) 0%, rgba(156, 14, 70, 1) 100%);
   width: calc(100%);
   height: 55px;
   font-size: 20px;
@@ -395,5 +410,5 @@ header {
   margin-left: 10px;
   font-size: 13px;
   font-weight: 300;
-  color: #51596f; 
+  color: #51596f;
 }
