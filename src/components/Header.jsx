@@ -7,7 +7,7 @@ function Header({ address, isConnected, connect, disconnect }) {
 
   return (
     <header>
-      <nav class="navbar navbar-expand-lg py-3 m-0 w-100" data-aos="fade-down" data-aos-delay="800">
+      <nav class="navbar navbar-expand-lg py-3 m-0 w-100 fixed-top" data-aos="fade-down" data-aos-delay="800">
         <Link class="navbar-brand me-2" to="/">Crypto</Link>
         <button class="navbar-toggler text-white" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
           <i class="fa fa-bars"></i>

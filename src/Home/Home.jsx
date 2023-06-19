@@ -8,47 +8,47 @@ import missionImg from './img/mission-main.png'
 const Home = () => {
     return (
         <>
-            <div>
-                <div className='container'>
-                    <div class = "d-flex justify-content-between py-3">
-                    <Link to = "/" className='navbar-brand'>CRYPTO</Link>
-                    <Link to = "/swap">
-                        <button className="buy-sell-btn">Buy / Sell</button>
-                    </Link>
+            <main>
+                <div>
+                    <div className='container'>
+                        <div class="d-flex justify-content-between py-3">
+                            <Link to="/" className='navbar-brand'>CRYPTO</Link>
+                            <Link to="/swap">
+                                <button className="buy-sell-btn">Buy / Sell</button>
+                            </Link>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <main>
-                <section style  = {{ "padding": "100px 0 0 0"}}>
+                <section style={{ "padding": "100px 0 0 0" }}>
                     <div className="container">
                         <div class="row">
                             <div class="col-lg-3 d-flex align-items-center justify-content-center">
                                 <div className='w-100'>
-                                <div>
-                                    <a href="">
-                                        <h1 className = "main-link">Home <span class="pull-right"><i className='fa fa-arrow-right'></i></span></h1>
-                                    </a>
-                                </div>
-                                <div>
-                                    <a href="">
-                                        <h1 className = "main-link">Whitepaper <span class="pull-right"><i className='fa fa-arrow-right'></i> </span></h1>
-                                    </a>
-                                </div>
-                                <div>
-                                    <a href="">
-                                        <h1 className = "main-link">Home <span class="pull-right"><i className='fa fa-arrow-right'></i> </span></h1>
-                                    </a>
-                                </div>
-                                <div>
-                                    <a href="">
-                                        <h1 className = "main-link">Home <span class="pull-right"><i className='fa fa-arrow-right'></i> </span></h1>
-                                    </a>
-                                </div>
-                                <div>
-                                    <a href="">
-                                        <h1 className = "main-link">Home <span class="pull-right"><i className='fa fa-arrow-right'></i> </span></h1>
-                                    </a>
-                                </div>
+                                    <div>
+                                        <a href="">
+                                            <h1 className="main-link">Home <span class="pull-right"><i className='fa fa-arrow-right'></i></span></h1>
+                                        </a>
+                                    </div>
+                                    <div>
+                                        <a href="">
+                                            <h1 className="main-link">Whitepaper <span class="pull-right"><i className='fa fa-arrow-right'></i> </span></h1>
+                                        </a>
+                                    </div>
+                                    <div>
+                                        <a href="">
+                                            <h1 className="main-link">Home <span class="pull-right"><i className='fa fa-arrow-right'></i> </span></h1>
+                                        </a>
+                                    </div>
+                                    <div>
+                                        <a href="">
+                                            <h1 className="main-link">Home <span class="pull-right"><i className='fa fa-arrow-right'></i> </span></h1>
+                                        </a>
+                                    </div>
+                                    <div>
+                                        <a href="">
+                                            <h1 className="main-link">Home <span class="pull-right"><i className='fa fa-arrow-right'></i> </span></h1>
+                                        </a>
+                                    </div>
                                 </div>
                             </div>
                             <div class="col-lg-3 d-flex align-items-center justify-content-center">
@@ -64,7 +64,7 @@ const Home = () => {
                     <div class="container">
                         <div class="row">
                             <div class="col-lg-7 d-flex align-items-center">
-                                <h1 class="about-head">EASILY <span class="strokeme">BUY <br /> and SELL</span> CRYPTO & <br /> STABLECOINS</h1>
+                                <h1 class="about-head about-main">EASILY <span class="strokeme">BUY <br /> and SELL</span> CRYPTO & <br /> STABLECOINS</h1>
                             </div>
                             <div class="col-lg-5 d-flex align-items-center justify-content-end">
                                 <img src={handImg} class="img-fluid" alt="" />
@@ -118,96 +118,96 @@ const Home = () => {
                         <div class="row">
                             <div class="col-lg-3">
                                 <div className='buy-item'>
-                                    <div class = "d-flex h-100">
-                                        <div style = {{ "flex": 1}} className='d-flex align-items-center justify-content-center'>
-                                            <h1 class = "text-center buy-head">USDC</h1>
+                                    <div class="d-flex h-100">
+                                        <div style={{ "flex": 1 }} className='d-flex align-items-center justify-content-center'>
+                                            <h1 class="text-center buy-head">USDC</h1>
                                         </div>
-                                        <div class = "d-flex align-items-center justify-content-center p-2">
-                                            <img src={img}   style = {{ "height": "60px"}} alt="" />
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-3">
-                                <div className='buy-item'>
-                                    <div class = "d-flex h-100">
-                                        <div style = {{ "flex": 1}} className='d-flex align-items-center justify-content-center'>
-                                            <h1 class = "text-center buy-head">USDC</h1>
-                                        </div>
-                                        <div class = "d-flex align-items-center justify-content-center p-2">
-                                            <img src={img}   style = {{ "height": "60px"}} alt="" />
+                                        <div class="d-flex align-items-center justify-content-center p-2">
+                                            <img src="https://cdn.moralis.io/eth/0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48.png" style={{ "height": "50px", "margin": "10px" }} alt="" />
                                         </div>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-lg-3">
                                 <div className='buy-item'>
-                                    <div class = "d-flex h-100">
-                                        <div style = {{ "flex": 1}} className='d-flex align-items-center justify-content-center'>
-                                            <h1 class = "text-center buy-head">USDC</h1>
+                                    <div class="d-flex h-100">
+                                        <div style={{ "flex": 1 }} className='d-flex align-items-center justify-content-center'>
+                                            <h1 class="text-center buy-head">LINK</h1>
                                         </div>
-                                        <div class = "d-flex align-items-center justify-content-center p-2">
-                                            <img src={img}   style = {{ "height": "60px"}} alt="" />
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-3">
-                                <div className='buy-item'>
-                                    <div class = "d-flex h-100">
-                                        <div style = {{ "flex": 1}} className='d-flex align-items-center justify-content-center'>
-                                            <h1 class = "text-center buy-head">USDC</h1>
-                                        </div>
-                                        <div class = "d-flex align-items-center justify-content-center p-2">
-                                            <img src={img}   style = {{ "height": "60px"}} alt="" />
+                                        <div class="d-flex align-items-center justify-content-center p-2">
+                                            <img src="https://cdn.moralis.io/eth/0x514910771af9ca656af840dff83e8264ecf986ca.png" style={{ "height": "50px", "margin": "10px" }} alt="" />
                                         </div>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-lg-3">
                                 <div className='buy-item'>
-                                    <div class = "d-flex h-100">
-                                        <div style = {{ "flex": 1}} className='d-flex align-items-center justify-content-center'>
-                                            <h1 class = "text-center buy-head">USDC</h1>
+                                    <div class="d-flex h-100">
+                                        <div style={{ "flex": 1 }} className='d-flex align-items-center justify-content-center'>
+                                            <h1 class="text-center buy-head">USDT</h1>
                                         </div>
-                                        <div class = "d-flex align-items-center justify-content-center p-2">
-                                            <img src={img}   style = {{ "height": "60px"}} alt="" />
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-3">
-                                <div className='buy-item'>
-                                    <div class = "d-flex h-100">
-                                        <div style = {{ "flex": 1}} className='d-flex align-items-center justify-content-center'>
-                                            <h1 class = "text-center buy-head">USDC</h1>
-                                        </div>
-                                        <div class = "d-flex align-items-center justify-content-center p-2">
-                                            <img src={img}   style = {{ "height": "60px"}} alt="" />
+                                        <div class="d-flex align-items-center justify-content-center p-2">
+                                            <img src="https://cdn.moralis.io/eth/0xdac17f958d2ee523a2206206994597c13d831ec7.png" style={{ "height": "50px", "margin": "10px" }} alt="" />
                                         </div>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-lg-3">
                                 <div className='buy-item'>
-                                    <div class = "d-flex h-100">
-                                        <div style = {{ "flex": 1}} className='d-flex align-items-center justify-content-center'>
-                                            <h1 class = "text-center buy-head">USDC</h1>
+                                    <div class="d-flex h-100">
+                                        <div style={{ "flex": 1 }} className='d-flex align-items-center justify-content-center'>
+                                            <h1 class="text-center buy-head">GUSD</h1>
                                         </div>
-                                        <div class = "d-flex align-items-center justify-content-center p-2">
-                                            <img src={img}   style = {{ "height": "60px"}} alt="" />
+                                        <div class="d-flex align-items-center justify-content-center p-2">
+                                            <img src="https://cdn.moralis.io/eth/0x056fd409e1d7a124bd7017459dfea2f387b6d5cd.png" style={{ "height": "50px", "margin": "10px" }} alt="" />
                                         </div>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-lg-3">
                                 <div className='buy-item'>
-                                    <div class = "d-flex h-100">
-                                        <div style = {{ "flex": 1}} className='d-flex align-items-center justify-content-center'>
-                                            <h1 class = "text-center buy-head">USDC</h1>
+                                    <div class="d-flex h-100">
+                                        <div style={{ "flex": 1 }} className='d-flex align-items-center justify-content-center'>
+                                            <h1 class="text-center buy-head">DAI</h1>
                                         </div>
-                                        <div class = "d-flex align-items-center justify-content-center p-2">
-                                            <img src={img}   style = {{ "height": "60px"}} alt="" />
+                                        <div class="d-flex align-items-center justify-content-center p-2">
+                                            <img src="https://cdn.moralis.io/eth/0x6b175474e89094c44da98b954eedeac495271d0f.png" style={{ "height": "50px", "margin": "10px" }} alt="" />
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3">
+                                <div className='buy-item'>
+                                    <div class="d-flex h-100">
+                                        <div style={{ "flex": 1 }} className='d-flex align-items-center justify-content-center'>
+                                            <h1 class="text-center buy-head">WETH</h1>
+                                        </div>
+                                        <div class="d-flex align-items-center justify-content-center p-2">
+                                            <img src="https://cdn.moralis.io/eth/0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2.png" style={{ "height": "50px", "margin": "10px" }} alt="" />
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3">
+                                <div className='buy-item'>
+                                    <div class="d-flex h-100">
+                                        <div style={{ "flex": 1 }} className='d-flex align-items-center justify-content-center'>
+                                            <h1 class="text-center buy-head">WBTC</h1>
+                                        </div>
+                                        <div class="d-flex align-items-center justify-content-center p-2">
+                                            <img src="https://cdn.moralis.io/eth/0x2260fac5e5542a773aa44fbcfedf7c193bc2c599.png" style={{ "height": "50px", "margin": "10px" }} alt="" />
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3">
+                                <div className='buy-item'>
+                                    <div class="d-flex h-100">
+                                        <div style={{ "flex": 1 }} className='d-flex align-items-center justify-content-center'>
+                                            <h1 class="text-center buy-head">MATIC</h1>
+                                        </div>
+                                        <div class="d-flex align-items-center justify-content-center p-2">
+                                            <img src="https://cdn.moralis.io/eth/0x7d1afa7b718fb893db30a3abc0cfc608aacfebb0.png" style={{ "height": "50px", "margin": "10px" }} alt="" />
                                         </div>
                                     </div>
                                 </div>
@@ -217,9 +217,9 @@ const Home = () => {
                 </section>
                 <section>
                     <div class="container">
-                        <h1 class="text-center about-head">Why <span class = "strokeme">STABLY?</span></h1>
+                        <h1 class="text-center about-head">Why <span class="strokeme">STABLY?</span></h1>
                         <div class="row mt-5">
-                        <div class="col-lg-4">
+                            <div class="col-lg-4">
                                 <div className='feature-list'>
                                     <h1 class="text-center">Superior Rates</h1>
                                     <p class="text-center">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsum nobis impedit, nam aliquid id blanditiis ea beatae explicabo repellat est quo eveniet. Delectus impedit autem quibusdam velit saepe voluptatibus veniam?</p>

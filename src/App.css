@@ -43,47 +43,26 @@ i:hover {
   text-decoration: none;
 }
 
-@media (max-width: 900px) {
-  .swap-main {
-    padding-bottom: 50px;
-  }
-
-  .mobile-nav-toggle {
-    display: none;
-  }
-}
-
-@media (max-width: 750px) {
-
-  header {
-    visibility: hidden;
-  }
-
-  .tradeBox {
-    width: 95% !important;
-  }
-
-  #header {
-    left: -300px;
-  }
-
-  #main {
-    margin-left: 0;
-  }
-
-  .mobile-nav-toggle {
-    display: block;
-    padding: 1em 1.5em 1em 0.65em !important;
-  }
-
-  .swap-main {
-    margin-left: 0;
-  }
-}
-
 @media (max-width: 667px) {
-  .tradeBox {
-    width: 90%;
+  .tradebox-wrapper {
+    width: 90% !important;
+  }
+
+  .tradeBox{
+    width: 100% !important;
+  }
+
+  .nav-item{
+    padding: 10px 0;
+    margin-top: 10px;
+  }
+
+  .nav-item button{
+    width: 98%;
+  }
+  
+  .navbar-collapse{
+    background: #000;
   }
 }
 
