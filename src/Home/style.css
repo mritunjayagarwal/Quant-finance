@@ -63,6 +63,7 @@ main {
     background-size: cover;
     padding: 1em;
     border-radius: 10px;
+    height: 100% !important;
 }
 
 .feature-list > h1 {

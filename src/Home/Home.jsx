@@ -64,7 +64,7 @@ const Home = () => {
                     <div class="container">
                         <div class="row">
                             <div class="col-lg-7 d-flex align-items-center">
-                                <h1 class="about-head about-main text-upper">Unleashing <span className='strokeme'>unparalleled price dominance</span> in the crypto space</h1>
+                                <h1 class="about-head about-main text-uppercase">Unleashing <span className='strokeme'>unparalleled price dominance</span> in the crypto space</h1>
                             </div>
                             <div class="col-lg-5 d-flex align-items-center justify-content-end">
                                 <img src={handImg} class="img-fluid" alt="" />
@@ -90,7 +90,7 @@ const Home = () => {
                             <div class="col-lg-4">
                                 <div className='feature-list'>
                                     <h1 class="text-center">Chain Agnostic</h1>
-                                    <p class="text-center">Our decentralized exchange (DEX) ensures multichain compatibility (Binance Smart Chain, Arbitrum) providing users with a diverse range of chain options to utilize.</p>
+                                    <p class="text-center">Our decentralized exchange (DEX) ensures multichain compatibility (Binance Smart Chain, Arbitrum) providing users with a diverse range of chain options to utilize.                  </p>
                                 </div>
                             </div>
                         </div>
@@ -105,7 +105,7 @@ const Home = () => {
                             <div class="col-lg-6 d-flex align-items-center justify-content-center">
                                 <div>
                                     <h1 className='about-head'>OUR <span className='strokeme'>MISSION</span></h1>
-                                    <p className='mt-3 mission-para'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio cupiditate cum qui explicabo tempora quam corporis saepe! Eum numquam adipisci eius suscipit atque impedit voluptatum nam quos laboriosam. Asperiores, repellat.</p>
+                                    <p className='mt-3 mission-para'>At Quant Finance, our mission is to empower retail traders by providing innovative solutions that enhance their trading journey. Through the utilization of advanced technologies such as batch auctions and AI-based pathfinders, we strive to offer our users the most competitive swapping rates in the market. We are dedicated to delivering a fully professional decentralized exchange (DEX) user experience, ensuring that retail traders can trade with confidence and efficiency. Our commitment to excellence drives us to continuously improve and provide a platform that empowers retail traders in their pursuit of financial success.</p>
                                     <button class="btn btn-primary mission-btn">Buy Now</button>
                                 </div>
                             </div>
@@ -221,20 +221,20 @@ const Home = () => {
                         <div class="row mt-5">
                             <div class="col-lg-4">
                                 <div className='feature-list'>
-                                    <h1 class="text-center">Superior Rates</h1>
-                                    <p class="text-center">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsum nobis impedit, nam aliquid id blanditiis ea beatae explicabo repellat est quo eveniet. Delectus impedit autem quibusdam velit saepe voluptatibus veniam?</p>
+                                    <h1 class="text-center">Permissionless Trading</h1>
+                                    <p class="text-center">Quant Finance offers a fully permissionless trading experience, allowing users to trade any tokens and build integrations without limitations. This open approach empowers individuals to participate in decentralized finance (DeFi) without barriers, promoting financial inclusivity and accessibility.</p>
                                 </div>
                             </div>
                             <div class="col-lg-4">
                                 <div className='feature-list'>
-                                    <h1 class="text-center">Superior Rates</h1>
-                                    <p class="text-center">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsum nobis impedit, nam aliquid id blanditiis ea beatae explicabo repellat est quo eveniet. Delectus impedit autem quibusdam velit saepe voluptatibus veniam?</p>
+                                    <h1 class="text-center">Enhanced Liquidity and Optimal Prices</h1>
+                                    <p class="text-center">Through its innovative Batch Auctions and AI Path finders, Quant Finance maximizes liquidity and facilitates efficient matching of orders. This results in better prices for individual traders and significant gas fee optimization. By tapping into on-chain liquidity and leveraging batch auctions, Quant Finance ensures users can access the most favorable prices available in the market.</p>
                                 </div>
                             </div>
                             <div class="col-lg-4">
                                 <div className='feature-list'>
-                                    <h1 class="text-center">Superior Rates</h1>
-                                    <p class="text-center">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsum nobis impedit, nam aliquid id blanditiis ea beatae explicabo repellat est quo eveniet. Delectus impedit autem quibusdam velit saepe voluptatibus veniam?</p>
+                                    <h1 class="text-center">MEV Protection and Fair Settlement</h1>
+                                    <p class="text-center">Quant Finance prioritizes the protection of traders from various forms of Miner Extractable Value (MEV), such as front/back running or sandwich attacks. By utilizing decentralized solvers who compete to provide optimal batch settlement solutions, the protocol establishes a fair and transparent mechanism for trade settlement. Traders can have confidence in the integrity of their transactions and the equitable execution of orders.</p>
                                 </div>
                             </div>
                         </div>
