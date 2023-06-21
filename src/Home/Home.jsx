@@ -1,7 +1,7 @@
 import React from 'react';
 import './style.css';
 import { Link } from 'react-router-dom';
-import img from './img/hero-img.png';
+import img from './img/logo.png';
 import handImg from './img/easy-buy-hand-img.png';
 import missionImg from './img/mission-main.png'
 
@@ -12,7 +12,7 @@ const Home = () => {
                 <div>
                     <div className='container'>
                         <div class="d-flex justify-content-between py-3">
-                            <Link to="/" className='navbar-brand'>CRYPTO</Link>
+                            <Link to="/" className='navbar-brand'><img src = {img} style = {{ "width": "80px", "height": "auto"}} />QUANT</Link>
                             <Link to="/swap">
                                 <button className="buy-sell-btn">Buy / Sell</button>
                             </Link>
@@ -55,7 +55,7 @@ const Home = () => {
                                 <img src={img} class="img-fluid" alt="" />
                             </div>
                             <div class="col-lg-6 d-flex align-items-center justify-content-center">
-                                <p className='mission-para'>Quantitative finance utilizes AI pathfinding & Batch auctioning to identify the most affordable price for your trade from various exchanges and aggregators, including Uniswap and 1inch. Additionally, it safeguards you against MEV bots, setting it apart from other solutions.</p>
+                                <p className='mission-para'>Quant finance utilizes AI pathfinding & Batch auctioning to identify the most affordable price for your trade from various exchanges and aggregators, including Uniswap and 1inch. Additionally, it safeguards you against MEV bots, setting it apart from other solutions.</p>
                             </div>
                         </div>
                     </div>
@@ -242,8 +242,47 @@ const Home = () => {
                 </section>
                 <section>
                     <div class="container">
-                        <h1 class="text-center about-head">JOIN OUR <span className='strokeme'>COMMUNITY</span></h1>
-                        <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit rem voluptas, iure, quod ipsam error doloribus laborum dolor reprehenderit architecto accusantium facere itaque, eum nihil temporibus. Aperiam laboriosam ipsa at.</p>
+                    <h1 class="text-center about-head">JOIN OUR <span className='strokeme'>COMMUNITY</span></h1>
+                        <div class="mt-3">
+                            <div class="row d-flex justify-content-center">
+                                <div class="col-lg-3 col-md-6">
+                                    <a class="touch-link" href="https://t.me/zksecure" style={{"color": "#fff"}}>
+                                        <div class="touch-card">
+                                            <p><i class="fa fa-telegram"></i> Telegram</p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col-lg-3 col-md-6">
+                                    <a class="touch-link" href="https://twitter.com/zksecure" style={{"color": "#fff"}}>
+                                        <div class="touch-card">
+                                            <p><i class="fa fa-twitter"></i> Twitter</p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col-lg-3 col-md-6">
+                                    <div class="touch-card">
+                                        <p><i class="fa fa-medium"></i> Medium</p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-6">
+                                    <a class="touch-link" href="mailto: 0xzksecure@gmail.com" style={{"color": "#fff"}}>
+                                        <div class="touch-card">
+                                            <p><i class="fa fa-envelope"></i> Mail</p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col-lg-3 col-md-6">
+                                    <div class="touch-card">
+                                        <p><img src="./img/10.png" style={{"width": "40px", "height": "auto"}} /> Dextools</p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-6">
+                                    <div class="touch-card">
+                                        <p><img src="./img/9.png" style={{"width": "40px", "height": "auto"}} /> Etherscan</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </section>
                 <footer>

@@ -108,6 +108,34 @@ background: linear-gradient(90deg, rgba(10,86,172,1) 0%, rgba(10,59,121,1) 100%)
     font-weight: 550;
 }
 
+/* Get in Touch section */
+
+.touch-card {
+    background: url(../Home/img/bg-screen.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    border: 1px solid #fff;
+    color: #fff;
+    font-size: 2em;
+    margin-top: 20px;
+    border-radius: 5px;
+    font-weight: 700;
+    transition: 0.2s ease-in;
+}
+
+.touch-card:hover {
+    transform: scale(1.03);
+}
+
+.touch-link:hover {
+    text-decoration: none;
+}
+
 @media only screen and (max-width: 700px) {
     .container {
       max-width: 100%;

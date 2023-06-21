@@ -18,12 +18,20 @@ i:hover {
 }
 
 .btn-grad {
-  background: rgb(239, 78, 96);
-  background: linear-gradient(90deg, rgba(239, 78, 96, 1) 0%, rgba(156, 14, 70, 1) 100%);
+  background-image: linear-gradient(to right, #1A2980 0%, #5CE1E6 51%, #1A2980 100%);
+  transition: 0.5s;
+  background-size: 200% auto;
   padding: 0.7em 2em !important;
   margin-top: -10px;
   color: #fff;
   border-radius: 20px;
+}
+
+.btn-grad:hover {
+  background-position: right center;
+  /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
 }
 
 .nav-item a {
@@ -32,10 +40,15 @@ i:hover {
 }
 
 .nav-item .active {
-  background: rgb(239, 78, 96);
-  background: linear-gradient(90deg, rgba(239, 78, 96, 1) 0%, rgba(156, 14, 70, 1) 100%);
+  background-image: linear-gradient(to right, #1A2980 0%, #5CE1E6 51%, #1A2980 100%);
+  transition: 0.5s;
+  background-size: 200% auto;
   padding-bottom: 10px;
   border-radius: 10px;
+}
+
+.nav-item .active:hover{
+  background-position: right center;
 }
 
 .nav-item a:hover {
