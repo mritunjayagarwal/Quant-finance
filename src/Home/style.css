@@ -76,6 +76,17 @@ main {
     padding: 0.5em 0;
 }
 
+.btn-top {
+    padding: 0.6em;
+    width: 200px;
+    border-radius: 40px;
+    font-size: 15px;
+    color: #fff;
+    border: 2px solid #4FA4F2;
+    letter-spacing: 3px;
+    background: #3577BA;
+}
+
 .feature-list{
     background: url(../Home/img/bg-screen.png);
     background-position: center;
@@ -163,6 +174,14 @@ background: linear-gradient(90deg, rgba(10,86,172,1) 0%, rgba(10,59,121,1) 100%)
 
     .feature-list{
         margin-bottom: 50px;
+    }
+
+    .btn-top {
+        width: 150px;
+    }
+
+    .panel{
+        display: none;
     }
 
     .about-head{

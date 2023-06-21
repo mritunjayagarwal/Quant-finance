@@ -10,60 +10,55 @@ const Home = () => {
         <>
             <main>
                 <nav class="navbar navbar-expand-lg py-3 m-0 w-100" data-aos="fade-down" data-aos-delay="800">
-                   <div className='container'>
-                   <Link class="navbar-brand" to="/"><img src={img} style={{ "width": "80px", "height": "auto", "margin-left": "-20px" }} />Quant Finance</Link>
-                    <button class="navbar-toggler text-white" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-                        <i class="fa fa-bars"></i>
-                    </button>
-                    <div class="collapse navbar-collapse text-white" id="navbarText">
-                        <ul class="navbar-nav ml-auto mb-2 mb-lg-0">
-                            <li class="nav-item">
-                                <Link to="/" class="px-3 pt-2 btn-link active">
-                                    Home
-                                </Link>
-                            </li>
-                            <li class="nav-item">
-                                <Link to="/" class="px-3 pt-2 btn-link">
-                                    Whitepaper
-                                </Link>
-                            </li>
-                            <li class="nav-item">
-                            <Link to="/swap">
-                                <button className="buy-sell-btn" style = {{ "margin-top": "-20px"}}>Buy / Sell</button>
-                            </Link>
-                            </li>
-                        </ul>
+                    <div className='container'>
+                        <Link class="navbar-brand" to="/"><img src={img} style={{ "width": "80px", "height": "auto", "margin-left": "-20px" }} />Quant Finance</Link>
+                        <button class="navbar-toggler text-white" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <div class="collapse navbar-collapse text-white" id="navbarText">
+                            <ul class="navbar-nav ml-auto mb-2 mb-lg-0">
+                                <li class="nav-item">
+                                    <Link to="/" class="px-3 pt-2 btn-link active">
+                                        Home
+                                    </Link>
+                                </li>
+                                <li class="nav-item">
+                                    <Link to="/" class="px-3 pt-2 btn-link">
+                                        Whitepaper
+                                    </Link>
+                                </li>
+                                <li class="nav-item">
+                                    <Link to="/swap">
+                                        <button className="buy-sell-btn" style={{ "margin-top": "-20px" }}>Buy / Sell</button>
+                                    </Link>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
-                   </div>
                 </nav>
-                <section style={{ "padding": "100px 0 0 0" }}>
+                <section style={{ "padding": "50px 0 0 0" }}>
                     <div className="container">
                         <div class="row">
                             <div class="col-lg-3 d-flex align-items-center justify-content-center">
-                                <div className='w-100'>
+                                <div className='w-100 panel'>
                                     <div>
                                         <a href="">
-                                            <h1 className="main-link">Home <span class="pull-right"><i className='fa fa-arrow-right'></i></span></h1>
+                                            <h1 className="main-link">Multichain Dex <span class="pull-right"><i className='fa fa-arrow-right'></i></span></h1>
                                         </a>
                                     </div>
                                     <div>
                                         <a href="">
-                                            <h1 className="main-link">Whitepaper <span class="pull-right"><i className='fa fa-arrow-right'></i> </span></h1>
+                                            <h1 className="main-link">AI Pathfinder <span class="pull-right"><i className='fa fa-arrow-right'></i> </span></h1>
                                         </a>
                                     </div>
                                     <div>
                                         <a href="">
-                                            <h1 className="main-link">Home <span class="pull-right"><i className='fa fa-arrow-right'></i> </span></h1>
+                                            <h1 className="main-link">Mev Protection <span class="pull-right"><i className='fa fa-arrow-right'></i> </span></h1>
                                         </a>
                                     </div>
                                     <div>
                                         <a href="">
-                                            <h1 className="main-link">Home <span class="pull-right"><i className='fa fa-arrow-right'></i> </span></h1>
-                                        </a>
-                                    </div>
-                                    <div>
-                                        <a href="">
-                                            <h1 className="main-link">Home <span class="pull-right"><i className='fa fa-arrow-right'></i> </span></h1>
+                                            <h1 className="main-link">Batch Auctioning <span class="pull-right"><i className='fa fa-arrow-right'></i> </span></h1>
                                         </a>
                                     </div>
                                 </div>
@@ -72,7 +67,21 @@ const Home = () => {
                                 <img src={img} class="img-fluid" alt="" />
                             </div>
                             <div class="col-lg-6 d-flex align-items-center justify-content-center">
-                                <p className='mission-para'>Quant finance utilizes AI pathfinding & Batch auctioning to identify the most affordable price for your trade from various exchanges and aggregators, including Uniswap and 1inch. Additionally, it safeguards you against MEV bots, setting it apart from other solutions.</p>
+                                <div>
+                                    <p className='mission-para'>Quant finance utilizes AI pathfinding & Batch auctioning to identify the most affordable price for your trade from various exchanges and aggregators, including Uniswap and 1inch. Additionally, it safeguards you against MEV bots, setting it apart from other solutions.</p>
+                                    <div class="d-flex">
+                                        <div class="pr-2">
+                                            <button class="btn btn-light btn-top" data-aos="fade-up" data-aos-delay="1000"
+                                                data-aos-duration="500">Join Presale</button>
+                                        </div>
+                                        <div class="px-2">
+                                            <a href="https://t.me/junocoin">
+                                                <button class="btn btn-light btn-top" data-aos="fade-up" data-aos-delay="1500"
+                                                    data-aos-duration="500">Community</button>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -83,7 +92,7 @@ const Home = () => {
                             <div class="col-lg-7 d-flex align-items-center">
                                 <h1 class="about-head about-main text-uppercase">Unleashing <span className='strokeme'>unparalleled price dominance</span> in the crypto space</h1>
                             </div>
-                            <div class="col-lg-5 d-flex align-items-center justify-content-end">
+                            <div class="col-lg-5 d-flex align-items-center justify-content-center">
                                 <img src={handImg} class="img-fluid" alt="" />
                             </div>
                         </div>
