@@ -3,7 +3,9 @@ import './style.css';
 import { Link } from 'react-router-dom';
 import img from './img/logo.png';
 import handImg from './img/easy-buy-hand-img.png';
-import missionImg from './img/mission-main.png'
+import missionImg from './img/mission-main.png';
+import dex from './img/dex.png';
+import etherScan from './img/9.png';
 
 const Home = () => {
     return (
@@ -71,13 +73,11 @@ const Home = () => {
                                     <p className='mission-para'>Quant finance utilizes AI pathfinding & Batch auctioning to identify the most affordable price for your trade from various exchanges and aggregators, including Uniswap and 1inch. Additionally, it safeguards you against MEV bots, setting it apart from other solutions.</p>
                                     <div class="d-flex">
                                         <div class="pr-2">
-                                            <button class="btn btn-light btn-top" data-aos="fade-up" data-aos-delay="1000"
-                                                data-aos-duration="500">Join Presale</button>
+                                            <button class="btn btn-light btn-top">Join Presale</button>
                                         </div>
                                         <div class="px-2">
-                                            <a href="https://t.me/junocoin">
-                                                <button class="btn btn-light btn-top" data-aos="fade-up" data-aos-delay="1500"
-                                                    data-aos-duration="500">Community</button>
+                                            <a href="">
+                                                <button class="btn btn-light btn-top">Community</button>
                                             </a>
                                         </div>
                                     </div>
@@ -272,14 +272,14 @@ const Home = () => {
                         <div class="mt-3">
                             <div class="row d-flex justify-content-center">
                                 <div class="col-lg-3 col-md-6">
-                                    <a class="touch-link" href="https://t.me/zksecure" style={{ "color": "#fff" }}>
+                                    <a class="touch-link" href="" style={{ "color": "#fff" }}>
                                         <div class="touch-card">
                                             <p><i class="fa fa-telegram"></i> Telegram</p>
                                         </div>
                                     </a>
                                 </div>
                                 <div class="col-lg-3 col-md-6">
-                                    <a class="touch-link" href="https://twitter.com/zksecure" style={{ "color": "#fff" }}>
+                                    <a class="touch-link" href="" style={{ "color": "#fff" }}>
                                         <div class="touch-card">
                                             <p><i class="fa fa-twitter"></i> Twitter</p>
                                         </div>
@@ -291,7 +291,7 @@ const Home = () => {
                                     </div>
                                 </div>
                                 <div class="col-lg-3 col-md-6">
-                                    <a class="touch-link" href="mailto: 0xzksecure@gmail.com" style={{ "color": "#fff" }}>
+                                    <a class="touch-link" href="mailto: me@gmail.com" style={{ "color": "#fff" }}>
                                         <div class="touch-card">
                                             <p><i class="fa fa-envelope"></i> Mail</p>
                                         </div>
@@ -299,12 +299,12 @@ const Home = () => {
                                 </div>
                                 <div class="col-lg-3 col-md-6">
                                     <div class="touch-card">
-                                        <p><img src="./img/10.png" style={{ "width": "40px", "height": "auto" }} /> Dextools</p>
+                                        <p><img src={dex} style={{ "width": "40px", "height": "auto" }} /> Dextools</p>
                                     </div>
                                 </div>
                                 <div class="col-lg-3 col-md-6">
                                     <div class="touch-card">
-                                        <p><img src="./img/9.png" style={{ "width": "40px", "height": "auto" }} /> Etherscan</p>
+                                        <p><img src={etherScan} style={{ "width": "40px", "height": "auto" }} /> Etherscan</p>
                                     </div>
                                 </div>
                             </div>
