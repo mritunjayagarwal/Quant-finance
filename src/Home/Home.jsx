@@ -79,9 +79,9 @@ const Home = () => {
                                             </a>
                                         </div>
                                         <div class="px-2">
-                                            <a href="https://t.me/quantfinanceerc">
-                                                <button class="btn btn-light btn-top">Community</button>
-                                            </a>
+                                            <Link to="/swap">
+                                                <button class="btn btn-light btn-top">Launch DEX</button>
+                                            </Link>
                                         </div>
                                     </div>
                                 </div>
