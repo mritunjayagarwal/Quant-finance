@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
+import logo from '../Home/img/logo.png'
 import eth from '../Home/img/eth.png';
 
 
@@ -8,7 +9,7 @@ function Header({ address, isConnected, connect, disconnect }) {
   return (
     <header>
       <nav class="navbar navbar-expand-lg py-3 m-0 w-100 fixed-top" data-aos="fade-down" data-aos-delay="800">
-        <Link class="navbar-brand me-2" to="/">Crypto</Link>
+        <Link class="navbar-brand me-2" to="/"><img src={logo} style = {{ "width": "80px", "height": "auto"}} />Quant Finance</Link>
         <button class="navbar-toggler text-white" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
           <i class="fa fa-bars"></i>
         </button>

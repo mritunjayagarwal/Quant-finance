@@ -217,7 +217,7 @@ const Home = () => {
                 </section>
                 <section>
                     <div class="container">
-                        <h1 class="text-center about-head">Why <span class="strokeme">STABLY?</span></h1>
+                        <h1 class="text-center about-head">Why <span class="strokeme">QUANT?</span></h1>
                         <div class="row mt-5">
                             <div class="col-lg-4">
                                 <div className='feature-list'>
@@ -286,7 +286,7 @@ const Home = () => {
                     </div>
                 </section>
                 <footer>
-                    <h5 class="text-center">&copy; 2024 Company Name</h5>
+                    <h5 class="text-center">&copy; 2023 Quant Finance. All Rights Reserved</h5>
                 </footer>
             </main>
         </>
