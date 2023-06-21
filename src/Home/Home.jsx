@@ -9,16 +9,33 @@ const Home = () => {
     return (
         <>
             <main>
-                <div>
-                    <div className='container'>
-                        <div class="d-flex justify-content-between py-3">
-                            <Link to="/" className='navbar-brand'><img src = {img} style = {{ "width": "80px", "height": "auto"}} />QUANT</Link>
+                <nav class="navbar navbar-expand-lg py-3 m-0 w-100" data-aos="fade-down" data-aos-delay="800">
+                   <div className='container'>
+                   <Link class="navbar-brand" to="/"><img src={img} style={{ "width": "80px", "height": "auto", "margin-left": "-20px" }} />Quant Finance</Link>
+                    <button class="navbar-toggler text-white" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                        <i class="fa fa-bars"></i>
+                    </button>
+                    <div class="collapse navbar-collapse text-white" id="navbarText">
+                        <ul class="navbar-nav ml-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <Link to="/" class="px-3 pt-2 btn-link active">
+                                    Home
+                                </Link>
+                            </li>
+                            <li class="nav-item">
+                                <Link to="/" class="px-3 pt-2 btn-link">
+                                    Whitepaper
+                                </Link>
+                            </li>
+                            <li class="nav-item">
                             <Link to="/swap">
-                                <button className="buy-sell-btn">Buy / Sell</button>
+                                <button className="buy-sell-btn" style = {{ "margin-top": "-20px"}}>Buy / Sell</button>
                             </Link>
-                        </div>
+                            </li>
+                        </ul>
                     </div>
-                </div>
+                   </div>
+                </nav>
                 <section style={{ "padding": "100px 0 0 0" }}>
                     <div className="container">
                         <div class="row">
@@ -242,18 +259,18 @@ const Home = () => {
                 </section>
                 <section>
                     <div class="container">
-                    <h1 class="text-center about-head">JOIN OUR <span className='strokeme'>COMMUNITY</span></h1>
+                        <h1 class="text-center about-head">JOIN OUR <span className='strokeme'>COMMUNITY</span></h1>
                         <div class="mt-3">
                             <div class="row d-flex justify-content-center">
                                 <div class="col-lg-3 col-md-6">
-                                    <a class="touch-link" href="https://t.me/zksecure" style={{"color": "#fff"}}>
+                                    <a class="touch-link" href="https://t.me/zksecure" style={{ "color": "#fff" }}>
                                         <div class="touch-card">
                                             <p><i class="fa fa-telegram"></i> Telegram</p>
                                         </div>
                                     </a>
                                 </div>
                                 <div class="col-lg-3 col-md-6">
-                                    <a class="touch-link" href="https://twitter.com/zksecure" style={{"color": "#fff"}}>
+                                    <a class="touch-link" href="https://twitter.com/zksecure" style={{ "color": "#fff" }}>
                                         <div class="touch-card">
                                             <p><i class="fa fa-twitter"></i> Twitter</p>
                                         </div>
@@ -265,7 +282,7 @@ const Home = () => {
                                     </div>
                                 </div>
                                 <div class="col-lg-3 col-md-6">
-                                    <a class="touch-link" href="mailto: 0xzksecure@gmail.com" style={{"color": "#fff"}}>
+                                    <a class="touch-link" href="mailto: 0xzksecure@gmail.com" style={{ "color": "#fff" }}>
                                         <div class="touch-card">
                                             <p><i class="fa fa-envelope"></i> Mail</p>
                                         </div>
@@ -273,12 +290,12 @@ const Home = () => {
                                 </div>
                                 <div class="col-lg-3 col-md-6">
                                     <div class="touch-card">
-                                        <p><img src="./img/10.png" style={{"width": "40px", "height": "auto"}} /> Dextools</p>
+                                        <p><img src="./img/10.png" style={{ "width": "40px", "height": "auto" }} /> Dextools</p>
                                     </div>
                                 </div>
                                 <div class="col-lg-3 col-md-6">
                                     <div class="touch-card">
-                                        <p><img src="./img/9.png" style={{"width": "40px", "height": "auto"}} /> Etherscan</p>
+                                        <p><img src="./img/9.png" style={{ "width": "40px", "height": "auto" }} /> Etherscan</p>
                                     </div>
                                 </div>
                             </div>
