@@ -45,24 +45,16 @@ const Home = () => {
                             <div class="col-lg-3 d-flex align-items-center justify-content-center">
                                 <div className='w-100 panel'>
                                     <div>
-                                        <a href="">
                                             <h1 className="main-link">Multichain Dex <span class="pull-right"><i className='fa fa-arrow-right'></i></span></h1>
-                                        </a>
                                     </div>
                                     <div>
-                                        <a href="">
                                             <h1 className="main-link">AI Pathfinder <span class="pull-right"><i className='fa fa-arrow-right'></i> </span></h1>
-                                        </a>
                                     </div>
                                     <div>
-                                        <a href="">
                                             <h1 className="main-link">Mev Protection <span class="pull-right"><i className='fa fa-arrow-right'></i> </span></h1>
-                                        </a>
                                     </div>
                                     <div>
-                                        <a href="">
                                             <h1 className="main-link">Batch Auctioning <span class="pull-right"><i className='fa fa-arrow-right'></i> </span></h1>
-                                        </a>
                                     </div>
                                 </div>
                             </div>
