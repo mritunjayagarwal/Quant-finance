@@ -30,7 +30,7 @@ function Header({ address, isConnected, connect, disconnect }) {
                 Bridge
               </a>
             </li>
-            <li>
+            <li className='eth-list'>
               <a href = "#project">
                 <img src={eth} className='mr-3' style = {{ "width": "40px", "height": "auto", "margin-top": "-5px"}} alt="" />
               </a>

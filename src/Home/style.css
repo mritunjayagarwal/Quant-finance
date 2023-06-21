@@ -220,4 +220,8 @@ transition: 0.5s;
     .about-head{
         font-size: 30px;
     }
+
+    .buy-sell-btn{
+        width: 94% !important;
+    }
   }

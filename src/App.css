@@ -75,7 +75,11 @@ i:hover {
   }
   
   .navbar-collapse{
-    background: #000;
+    background: rgb(23, 22, 34);
+  }
+
+  .eth-list{
+    display: none;
   }
 }
 

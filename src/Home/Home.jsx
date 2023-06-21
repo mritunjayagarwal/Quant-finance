@@ -77,7 +77,7 @@ const Home = () => {
                                         </div>
                                         <div class="px-2">
                                             <a href="">
-                                                <button class="btn btn-light btn-top">Community</button>
+                                                <button class="btn btn-light btn-top"   >Community</button>
                                             </a>
                                         </div>
                                     </div>
