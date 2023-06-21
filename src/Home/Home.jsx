@@ -6,6 +6,7 @@ import handImg from './img/easy-buy-hand-img.png';
 import missionImg from './img/mission-main.png';
 import dex from './img/dex.png';
 import etherScan from './img/9.png';
+import pdf from './whitepaper.pdf';
 
 const Home = () => {
     return (
@@ -25,9 +26,9 @@ const Home = () => {
                                     </Link>
                                 </li>
                                 <li class="nav-item">
-                                    <Link to="/" class="px-3 pt-2 btn-link">
+                                    <a href={pdf} target = "_blank" class="px-3 pt-2 btn-link">
                                         Whitepaper
-                                    </Link>
+                                    </a>
                                 </li>
                                 <li class="nav-item">
                                     <Link to="/swap">
@@ -73,11 +74,13 @@ const Home = () => {
                                     <p className='mission-para'>Quant finance utilizes AI pathfinding & Batch auctioning to identify the most affordable price for your trade from various exchanges and aggregators, including Uniswap and 1inch. Additionally, it safeguards you against MEV bots, setting it apart from other solutions.</p>
                                     <div class="d-flex">
                                         <div class="pr-2">
-                                            <button class="btn btn-light btn-top">Join Presale</button>
+                                            <a href={pdf} target = "_blank">
+                                            <button class="btn btn-light btn-top">Docs</button>
+                                            </a>
                                         </div>
                                         <div class="px-2">
-                                            <a href="">
-                                                <button class="btn btn-light btn-top"   >Community</button>
+                                            <a href="https://t.me/quantfinanceerc">
+                                                <button class="btn btn-light btn-top">Community</button>
                                             </a>
                                         </div>
                                     </div>
@@ -272,14 +275,14 @@ const Home = () => {
                         <div class="mt-3">
                             <div class="row d-flex justify-content-center">
                                 <div class="col-lg-3 col-md-6">
-                                    <a class="touch-link" href="" style={{ "color": "#fff" }}>
+                                    <a class="touch-link" href="https://t.me/quantfinanceerc" style={{ "color": "#fff" }}>
                                         <div class="touch-card">
                                             <p><i class="fa fa-telegram"></i> Telegram</p>
                                         </div>
                                     </a>
                                 </div>
                                 <div class="col-lg-3 col-md-6">
-                                    <a class="touch-link" href="" style={{ "color": "#fff" }}>
+                                    <a class="touch-link" href="https://twitter.com/quantfinanceerc" style={{ "color": "#fff" }}>
                                         <div class="touch-card">
                                             <p><i class="fa fa-twitter"></i> Twitter</p>
                                         </div>
