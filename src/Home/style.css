@@ -83,6 +83,10 @@ main {
     color: #fff;
 }
 
+.contract-address{
+    word-break: break-all;
+}
+
 .main-link{
     font-size: 20px;
     color: #fff;
