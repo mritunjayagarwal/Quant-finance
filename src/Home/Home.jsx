@@ -64,7 +64,7 @@ const Home = () => {
                             <div class="col-lg-6 d-flex align-items-center justify-content-center">
                                 <div>
                                     <p className='mission-para'>Quant finance utilizes AI pathfinding & Batch auctioning to identify the most affordable price for your trade from various exchanges and aggregators, including Uniswap and 1inch. Additionally, it safeguards you against MEV bots, setting it apart from other solutions.</p>
-                                    <p className='mission-para' style={{"word-wrap": "break-word"}}>Contract Address: 0x4e69365007ee6560d01d174b608bf9ac13d58f37</p>
+                                    <p className='mission-para'>Contract Address: <br /><span style={{"word-wrap": "break-word"}}>0x4e69365007ee6560d01d174b608bf9ac13d58f37</span></p>
                                     <div class="d-flex">
                                         <div class="pr-2">
                                             <a href={pdf} target = "_blank">
